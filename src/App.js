@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import Success from "./components/Success";
 import Asking from "./components/Asking";
-import flowerBear from "./flowerBear.gif";
-import madBear from "./madBear.gif";
+import prettyplease from "./prettyplease.gif";
+import angry from "./angry.gif";
 
 /**
  * Main App component managing the Valentine's Day proposal.
@@ -48,7 +48,7 @@ const App = () => {
         {/* Asking to be my Valentine */}
         {!accepted && (
           <Asking
-            gif={rejected ? madBear : flowerBear}
+            gif={rejected ? angry : prettyplease}
             altText={rejected ? "Rejected Bear" : "I love you Bear"}
             handleAccept={handleAccept}
             handleReject={handleReject}
