@@ -17,8 +17,7 @@ const Success = () => (
     <p className="App-text-success">
       Come meet me fast.Need kissies to stay happy.
     </p>
-    {/* Displaying the date of the special moment */}
-    <p className="App-text-date">12/23/2023</p>
+    
   </div>
 );
 
