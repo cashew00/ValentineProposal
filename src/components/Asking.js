@@ -15,7 +15,7 @@ const Asking = ({ gif, altText, handleAccept, handleReject, noButtonText }) => (
     {/* Displaying the chosen gif with alt text */}
     <img className="App-gif" src={gif} alt={altText} />
     {/* Asking the special question with personalized name */}
-    <p className="App-text">Jocelyn, will you be my Valentine?</p>
+    <p className="App-text">Will you be my Valentine,cutie pie?Yes bolna warna maaroongi.Lavvuuuu</p>
     <div>
       {/* Button for accepting the proposal */}
       <button className="App-button" onClick={handleAccept}>
