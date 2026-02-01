@@ -12,10 +12,10 @@ const Success = () => (
     <img className="App-gif" src={kisses} alt="Kisses" />
     {/* Personalized success messages */}
     <p className="App-text-success">
-      Yasssssss hehe. I loveee youuuuu I miss youuuuu
+      Yasssssss !!! Muah muah muah <3
     </p>
     <p className="App-text-success">
-      Come meet me fast.Need kissies to stay happy.
+      Come meet me fasttt. Missy ho raha hai 
     </p>
     
   </div>
